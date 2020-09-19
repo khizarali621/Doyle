@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.sc3-pic img{
+    width: 100%;
+    height: 100%;
+}
+#section7{
+    background-image: url(./imgs/bg_section21.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#section9{
+    background-image: url(./imgs/bg_section20.jpg);
+    background-size: 100% 110%;
+    background-attachment: fixed;
+    height: 160vh;
+    overflow: hidden;
+}
+::placeholder{
+    color: white;
+}
+.owl-dot span{
+    display:none !important
+}
+.owl-next span{
+    font-size: 3rem !important;
+}
+.owl-prev span{
+    font-size: 3rem !important;
+
+}
+
+/* nav */
+i,li>a{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+i:hover{
+    color: #1D79E0;
+}
+li>a:hover{
+    color: #1D79E0;
+}
+.white-to-sky,.sky-to-white{
+    transition: 0.3 ease !important;
+    cursor: pointer;
+}
+.sky-to-white:hover{
+    background: none !important;
+}
+.white-to-sky:hover{
+    background: #00C282 !important;
+    border:2px solid #00C282 !important;
+
+}
+.order-now{
+    transition: 0.3s ease;
+}
+.order-now:hover{
+    background: #00C282 !important;
+    color: white !important;
+
+}
+.white-to-white{
+    transition: 0.3s ease;
+}
+.white-to-white:hover{
+    background: white !important;
+    color: #00C282 !important;
+}
+button{
+    outline: none;
+}
+
+@media only screen and (max-width:400px){
+    #section7{
+        height: 100vh;
+    }
+    #sec7-img{
+        width: 11rem;
+    }
+    #sec7-h1{
+        font-size: 1.6rem;
+    }
+    #sec7-text{
+        margin-top: 1rem;
+    }
+    #section9{
+        height: 300vh;
+    }
+}
+@media only screen and (max-width:800px){
+    #section9{
+        height: 320vh;
+    }
+    #section9{
+        height: 300vh;
+    }
+    #textarea{
+        width: 100%;
+    }
+}
